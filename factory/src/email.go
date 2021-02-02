@@ -7,7 +7,7 @@ type email struct {
 func newEmail() iMessage {
     return &email{
         message: message{
-            message_type:  "E-mail",
+            messageType:  "E-mail",
             text: "Message sent by E-mail",
         },
     }

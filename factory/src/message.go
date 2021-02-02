@@ -1,16 +1,16 @@
 package main
 
 type message struct {
-    message_type  string
+    messageType  string
     text string
 }
 
-func (m *message) setMessageType(message_type string) {
-    m.message_type = message_type
+func (m *message) setMessageType(messageType string) {
+    m.messageType = messageType
 }
 
 func (m *message) getMessageType() string {
-    return m.message_type
+    return m.messageType
 }
 
 func (m *message) setText(text string) {

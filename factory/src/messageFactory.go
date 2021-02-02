@@ -9,5 +9,5 @@ func getMessageType(messageType string) (iMessage, error) {
     if messageType == "email" {
         return newEmail(), nil
     }
-    return nil, fmt.Errorf("Wrong message type passed")
+    return nil, fmt.Errorf("wrong message type passed")
 }
